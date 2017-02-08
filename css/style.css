@@ -1,0 +1,56 @@
+canvas{
+  position: absolute;
+}
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #19ffb2; /* Old browsers */
+background: -moz-linear-gradient(top, #19ffb2 0%, #b219ff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #19ffb2 0%,#b219ff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #19ffb2 0%,#b219ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#19ffb2', endColorstr='#b219ff',GradientType=0 ); /* IE6-9 */
+copy}
+ul {
+  bottom: 0px;
+}
+/*.row{
+  position: fixed;
+  width: 100vw;
+  margin-bottom: 0px;
+  bottom: 0px;
+}*/
+.tabs{
+  background-color: rgba(42, 42, 42, .75);
+  color: white;
+}
+.tabs .indicator{
+  background-color: #e57373;
+}
+.tabs .tab a:hover, .tabs .tab a.active, .tabs .tab a {
+  color: white;
+}
+#protontab.active{
+  color: #e57373;
+}
+#neutrontab.active{
+  color: #64b5f6;
+}
+#electrontab.active{
+  color: #81c784;
+}
+#energytab.active{
+  color: #fff176;
+}
+.indicator.proton{
+  background-color: #e57373;
+}
+.indicator.neutron{
+  background-color: #64b5f6;
+}
+.indicator.electron{
+  background-color: #81c784;
+}
+.indicator.energy{
+  background-color: #fff176;
+}
